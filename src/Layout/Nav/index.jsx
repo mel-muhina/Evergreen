@@ -25,26 +25,21 @@ export default function Navigation() {
             navbarScroll
           >
             <NavDropdown title="Women" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
+            <NavDropdown.Item href="#tops">Tops</NavDropdown.Item>
+            <NavDropdown.Item href="#dresses">Dresses</NavDropdown.Item>
+            <NavDropdown.Item href="#activewear">Bottoms</NavDropdown.Item>
+            <NavDropdown.Item href="#outerwear">Outerwear</NavDropdown.Item>
+            <NavDropdown.Item href="#accessories">Accessories</NavDropdown.Item>
+
             </NavDropdown>
 
 
             <NavDropdown title="Men" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
+            <NavDropdown.Item href="#shirts">Tops</NavDropdown.Item>
+            <NavDropdown.Item href="#jeans">Bottoms</NavDropdown.Item>
+            <NavDropdown.Item href="#footwear">Footwear</NavDropdown.Item>
+            <NavDropdown.Item href="#jackets">Outwear</NavDropdown.Item>
+            <NavDropdown.Item href="#watches">Accessories</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href="#action2">About</Nav.Link>
@@ -67,6 +62,7 @@ export default function Navigation() {
        
         </Navbar.Collapse>
       </Container>
+      <hr />
     </Navbar>
 
     
